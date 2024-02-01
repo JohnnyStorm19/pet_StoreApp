@@ -27,12 +27,12 @@ const Navbar = () => {
         clearTimeout(timeout.current);
       }
 
-      if (window.scrollY > lastScrollY) {
+      if (window.scrollY > lastScrollY && (lastScrollY >= 0) ) {
         setIsVisibleNavbar(false);
       } else {
         setIsVisibleNavbar(true);
         setNavbarBg(true);
-        if (window.scrollY <= 80) {
+        if (window.scrollY <= 5) {
           setIsVisibleNavbar(true);
           setNavbarBg(false);
         } else {
