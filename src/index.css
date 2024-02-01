@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Neue-Machina-light";
+    src: url("/src/assets/fonts/PPNeueMachina-Light.otf");
+  }
+  @font-face {
+    font-family: "Neue-Machina-regular";
+    src: url("/src/assets/fonts/PPNeueMachina-Regular.otf");
+  }
+  @font-face {
+    font-family: "Neue-Machina-bold";
+    src: url("/src/assets/fonts/PPNeueMachina-Ultrabold.otf");
+  }
+
+  *,
+  html {
+    scroll-behavior: smooth !important;
+  }
+  body {
+    font-family: "Neue-Machina-regular";
+  }
+}
+
+.side-menu-li {
+  @apply pb-[10px] pt-2 border-b-2 border-black border-opacity-50 cursor-pointer text-xl;
+}
+.footerLink {
+  @apply opacity-50 transition duration-300 w-fit;
+}
+.navLink {
+  @apply transition duration-300 w-fit;
+}
+.link-span {
+  @apply block scale-x-0 w-full group-hover:scale-x-100 transition-all duration-500 h-[1px] bg-current;
+}
+.navbar-svg-icons {
+  @apply w-5 h-5 cursor-pointer;
+}
+.footer-svg-icons {
+  @apply lg:w-10 lg:h-10 w-7 h-7 cursor-pointer;
+}
+
+.button-primary {
+  @apply text-white uppercase bg-black md:py-5 py-2;
+}
+.button-collapsible {
+  @apply uppercase;
+}
+.button-add-to-favourites {
+  @apply py-2 px-2 text-black text-sm uppercase outline outline-black outline-1;
+}
+.button-remove-from-favourites {
+  @apply py-2 px-2 text-white text-sm uppercase bg-black;
+}
+
+.productInfoCollapsed {
+  @apply grid grid-cols-1 transition-all duration-300 ease-in-out
+}
+.productInfoCollapsedText {
+  @apply text-base overflow-hidden
+}
+
+.imageOnPage {
+  @apply md:w-basisImg max-w-full
+}
+

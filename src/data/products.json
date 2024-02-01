@@ -1,0 +1,540 @@
+[
+  {
+    "id": 1,
+    "title": "Свитер",
+    "sale": false,
+    "price": 10000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/sweater_10000.jpg",
+      "src/assets/images/products/sweater_10000_2.jpg",
+      "src/assets/images/products/sweater_10000_3.jpg"
+    ],
+    "tags": ["new"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 2,
+    "title": "Штаны",
+    "sale": false,
+    "price": 13000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/trousers_13000.jpg",
+      "src/assets/images/products/trousers_13000_2.jpg",
+      "src/assets/images/products/trousers_13000_3.jpg"
+    ],
+    "tags": ["new"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 3,
+    "title": "Пиджак",
+    "sale": false,
+    "price": 15000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": ["src/assets/images/products/blazer_15000.jpg"],
+    "tags": ["new"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 4,
+    "title": "Платье",
+    "sale": false,
+    "price": 20000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": ["src/assets/images/products/dress_20000.jpg"],
+    "tags": ["best-sellers"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 5,
+    "title": "Комбез",
+    "sale": false,
+    "price": 13000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/overall_13000.jpg",
+      "src/assets/images/products/overall_13000_2.jpg",
+      "src/assets/images/products/overall_13000_3.jpg"
+    ],
+    "tags": ["best-sellers"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 6,
+    "title": "Пиджак",
+    "sale": false,
+    "price": 12000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": [
+      "src/assets/images/products/blazer_12000.jpg",
+      "src/assets/images/products/blazer_12000_2.jpg",
+      "src/assets/images/products/blazer_12000_3.jpg"
+    ],
+    "tags": ["best-sellers"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 7,
+    "title": "Куртка 'Авиатор'",
+    "sale": false,
+    "price": 18000,
+    "description": "Безумный стильный стиль",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": ["src/assets/images/products/aviator_men.jpg"],
+    "tags": ["best-sellers", "new"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 8,
+    "title": "Сумка ***да",
+    "sale": true,
+    "old_price": 5000000,
+    "price": 4800000,
+    "description": "Сумка, которую носит дьявол. Дорогущая ужас просто",
+    "category": ["accessories"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/bag_prada_women.jpg",
+      "src/assets/images/products/bag_prada_women_2.jpg",
+      "src/assets/images/products/bag_prada_women_3.jpg"
+    ],
+    "tags": ["sale"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 9,
+    "title": "Блузка",
+    "sale": false,
+    "price": 9000,
+    "description": "Блузка у женщины с прекрасными украшениями",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/blouse_yellow_women.jpg",
+      "src/assets/images/products/blouse_yellow_women_2.jpg",
+      "src/assets/images/products/blouse_yellow_women_3.jpg"
+    ],
+    "tags": ["best-sellers", "new"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 10,
+    "title": "Платье",
+    "sale": false,
+    "price": 22000,
+    "description": "Синее роковое платье с плечиками",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/blue_dress_women.jpg",
+      "src/assets/images/products/blue_dress_women_2.jpg",
+      "src/assets/images/products/blue_dress_women_3.jpg"
+    ],
+    "tags": ["best-sellers"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 11,
+    "title": "Боди",
+    "sale": false,
+    "price": 8000,
+    "description": "Сомнительно, но окэй",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/body_women.jpg",
+      "src/assets/images/products/body_women_2.jpg",
+      "src/assets/images/products/body_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 12,
+    "title": "Браслет",
+    "sale": false,
+    "price": 6500,
+    "description": "До сих пор думаю, что это ремешок от сумки. Но нужен был браслет ради разнообразия. Простите, если ошибся",
+    "category": ["accessories"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/bracelet_cream.jpg",
+      "src/assets/images/products/bracelet_cream_2.jpg",
+      "src/assets/images/products/bracelet_cream_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 13,
+    "title": "Пальто кожаное",
+    "sale": false,
+    "price": 34000,
+    "description": "Тринити и Саша Белый ставят по большому пальцу вверх",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/coat_leather_women.jpg",
+      "src/assets/images/products/coat_leather_women_2.jpg",
+      "src/assets/images/products/coat_leather_women_3.jpg"
+    ],
+    "tags": ["new"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 14,
+    "title": "Балетки",
+    "sale": false,
+    "price": 12300,
+    "description": "По серебряной пуле на ногу. Стильная сменка на зиму",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/flat_shoes_women.jpg",
+      "src/assets/images/products/flat_shoes_women_2.jpg",
+      "src/assets/images/products/flat_shoes_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 15,
+    "title": "Очки",
+    "sale": true,
+    "old_price": 8000,
+    "price": 7000,
+    "description": "'Дамы и господа, переходим к лоту номер три... Редчайший предмет! Очки в золотой оправе, с линзами из горного хрусталя, любовно обработанные маленькими ручками гномьих мастеров... Некогда принадлежали знаменитому наемному убийце Профессору!'",
+    "category": ["accessories"],
+    "gender": "all",
+    "img": [
+      "src/assets/images/products/glasses.jpg",
+      "src/assets/images/products/glasses_2.jpg",
+      "src/assets/images/products/glasses_3.jpg"
+    ],
+    "tags": ["sale"],
+    "currency": "РУБ"
+  },
+  {
+    "id": 16,
+    "title": "Очки женские",
+    "sale": false,
+    "price": 7000,
+    "description": "От солнца защищают",
+    "category": ["accessories"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/glasses_women.jpg",
+      "src/assets/images/products/glasses_women_2.jpg",
+      "src/assets/images/products/glasses_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 17,
+    "title": "Сапоги на каблуке",
+    "sale": false,
+    "price": 23000,
+    "description": "Не промокнут, со спортачами сочетаются. Что еще нужно?",
+    "category": ["shoes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/high_heels_boots_women.jpg",
+      "src/assets/images/products/high_heels_boots_women_2.jpg",
+      "src/assets/images/products/high_heels_boots_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 18,
+    "title": "Куртка оверсайз",
+    "sale": false,
+    "price": 24000,
+    "description": "То ли куртка, то ли рубашка. Я думаю, что куртка.",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/jacket_grey_women.jpg",
+      "src/assets/images/products/jacket_grey_women_2.jpg",
+      "src/assets/images/products/jacket_grey_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 19,
+    "title": "Куртка",
+    "sale": false,
+    "price": 25000,
+    "description": "Стильно, модно, дай пять",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": ["src/assets/images/products/jacket_men.jpg"],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 20,
+    "title": "Кожаный костюм",
+    "sale": false,
+    "price": 30000,
+    "description": "Много звезд, кожа, лофт. Так стоп, мы на той самой вечеринке??",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/leather_suite_women.jpg",
+      "src/assets/images/products/leather_suite_women_2.jpg",
+      "src/assets/images/products/leather_suite_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 21,
+    "title": "Найки джорданы 1",
+    "sale": false,
+    "price": 35000,
+    "description": "Настоящие артефакты и памятники истории дизайна кроссовок",
+    "category": ["shoes"],
+    "gender": "all",
+    "img": [
+      "src/assets/images/products/nike_air.jpg",
+      "src/assets/images/products/nike_air_2.jpg",
+      "src/assets/images/products/nike_air_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 22,
+    "title": "Найки форсы",
+    "sale": false,
+    "price": 20000,
+    "description": "Нежно и воздушно. Зефирки.",
+    "category": ["shoes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/nike_force_women.jpg",
+      "src/assets/images/products/nike_force_women_2.jpg",
+      "src/assets/images/products/nike_force_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 23,
+    "title": "Конверсы",
+    "sale": false,
+    "price": 14000,
+    "description": "На первое время необходимо запастись пластырями. А когда-то в них играли в баскетбол большие дяди.",
+    "category": ["shoes"],
+    "gender": "all",
+    "img": ["src/assets/images/products/shoes_converse.jpg"],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 24,
+    "title": "Кельвин кляйн кроссы",
+    "sale": false,
+    "price": 14000,
+    "description": "Баленси...а, стоп!",
+    "category": ["shoes"],
+    "gender": "all",
+    "img": [
+      "src/assets/images/products/shoes_calvin.jpg",
+      "src/assets/images/products/shoes_calvin_2.jpg",
+      "src/assets/images/products/shoes_calvin_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 25,
+    "title": "Пумы",
+    "sale": false,
+    "price": 14500,
+    "description": "описание описание описание",
+    "category": ["shoes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/shoes_puma.jpg",
+      "src/assets/images/products/shoes_puma_2.jpg",
+      "src/assets/images/products/shoes_puma_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 26,
+    "title": "Костюм женский",
+    "sale": false,
+    "price": 20000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/suite_women.jpg",
+      "src/assets/images/products/suite_women_2.jpg",
+      "src/assets/images/products/suite_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 27,
+    "title": "Шлепанцы женские",
+    "sale": false,
+    "price": 20000,
+    "description": "Ведь это так называется?",
+    "category": ["shoes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/summer_shoes_women.jpg",
+      "src/assets/images/products/summer_shoes_women_2.jpg",
+      "src/assets/images/products/summer_shoes_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 28,
+    "title": "Свитер",
+    "sale": false,
+    "price": 14000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": [
+      "src/assets/images/products/sweater__red_men.jpg",
+      "src/assets/images/products/sweater__red_men_2.jpg",
+      "src/assets/images/products/sweater__red_men_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 29,
+    "title": "Свитер",
+    "sale": false,
+    "price": 14300,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": [
+      "src/assets/images/products/sweatshirt_gray_men.jpg",
+      "src/assets/images/products/sweatshirt_gray_men_2.jpg",
+      "src/assets/images/products/sweatshirt_gray_men_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 30,
+    "title": "Брюки",
+    "sale": false,
+    "price": 8000,
+    "description": "описание описание описание",
+    "category": ["clothes"],
+    "gender": "men",
+    "img": [
+      "src/assets/images/products/trousers_men.jpg",
+      "src/assets/images/products/trousers_men_2.jpg",
+      "src/assets/images/products/trousers_men_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 31,
+    "title": "Часы",
+    "sale": false,
+    "price": 346000,
+    "description": "Что-то на богатом",
+    "category": ["accessories"],
+    "gender": "all",
+    "img": [
+      "src/assets/images/products/watch.jpg",
+      "src/assets/images/products/watch_2.jpg",
+      "src/assets/images/products/watch_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 32,
+    "title": "Костюм брючный",
+    "sale": false,
+    "price": 32000,
+    "description": "Строго, с изюминкой",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/white_suite_women.jpg",
+      "src/assets/images/products/white_suite_women_2.jpg",
+      "src/assets/images/products/white_suite_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 33,
+    "title": "Туфли",
+    "sale": false,
+    "price": 44000,
+    "description": "Арт-объект на ваших ногах",
+    "category": ["shoes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/women's shoes.jpg",
+      "src/assets/images/products/women's shoes_2.jpg",
+      "src/assets/images/products/women's shoes_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 34,
+    "title": "Платье",
+    "sale": false,
+    "price": 32000,
+    "description": "В комплекте могли бы пойти очки",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": [
+      "src/assets/images/products/yellow_dress_women.jpg",
+      "src/assets/images/products/yellow_dress_women_2.jpg",
+      "src/assets/images/products/yellow_dress_women_3.jpg"
+    ],
+    "tags": [],
+    "currency": "РУБ"
+  },
+  {
+    "id": 35,
+    "title": "Панама",
+    "sale": false,
+    "price": 6700,
+    "description": "Это было не просто смело, это было офигеть как смело!",
+    "category": ["clothes"],
+    "gender": "women",
+    "img": ["src/assets/images/products/yellow_pink_look.jpg"],
+    "tags": [],
+    "currency": "РУБ"
+  }
+]
