@@ -8,7 +8,7 @@ import { store } from "./store/store.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/pet_StoreApp">
       <Provider store={store}>
         <App />
       </Provider>
