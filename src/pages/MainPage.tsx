@@ -13,8 +13,8 @@ const MainPage = () => {
       <CtAOffers title="сэйл" type="sale" id="sale" />
       <CtAOffers title="бест селлерс" type="best-sellers" id="best-sellers" />
       <div className="px-[30px] flex justify-end md:gap-[90px] gap-5 items-center md:flex-row flex-col">
-        <CtAImage image="./src/assets/images/CtA/CtA_2_small.jpg" navigateLink="/new" title="Новое поступление" />
-        <CtAImage image="./src/assets/images/CtA/CtA_1_large.jpg" navigateLink="/catalogue" title="Возьми все" />
+        <CtAImage image="images/CtA/CtA_2_small.jpg" navigateLink="/new" title="Новое поступление" />
+        <CtAImage image="images/CtA/CtA_1_large.jpg" navigateLink="/catalogue" title="Возьми все" />
       </div>
       <NewsLetterSubscribeForm />
     </div>
