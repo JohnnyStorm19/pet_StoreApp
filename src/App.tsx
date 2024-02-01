@@ -9,17 +9,15 @@ import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<MainPage />} />
-          <Route path="/catalogue" element={<CataloguePage />} />
-          <Route path="/product/:id" element={<ProductPage />} />
-          <Route path="/favourites" element={<FavouritesPage />} />
-          <Route path="/cart" element={<CartPage />} />
-        </Route>
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<MainPage />} />
+        <Route path="/catalogue" element={<CataloguePage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
+        <Route path="/favourites" element={<FavouritesPage />} />
+        <Route path="/cart" element={<CartPage />} />
+      </Route>
+    </Routes>
   );
 }
 
