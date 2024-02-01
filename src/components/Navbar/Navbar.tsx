@@ -32,7 +32,7 @@ const Navbar = () => {
       } else {
         setIsVisibleNavbar(true);
         setNavbarBg(true);
-        if (window.scrollY === 0) {
+        if (window.scrollY <= 5) {
           setIsVisibleNavbar(true);
           setNavbarBg(false);
         } else {
