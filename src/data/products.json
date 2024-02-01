@@ -8,9 +8,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/sweater_10000.jpg",
-      "src/assets/images/products/sweater_10000_2.jpg",
-      "src/assets/images/products/sweater_10000_3.jpg"
+      "images/products/sweater_10000.jpg",
+      "images/products/sweater_10000_2.jpg",
+      "images/products/sweater_10000_3.jpg"
     ],
     "tags": ["new"],
     "currency": "РУБ"
@@ -24,9 +24,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/trousers_13000.jpg",
-      "src/assets/images/products/trousers_13000_2.jpg",
-      "src/assets/images/products/trousers_13000_3.jpg"
+      "images/products/trousers_13000.jpg",
+      "images/products/trousers_13000_2.jpg",
+      "images/products/trousers_13000_3.jpg"
     ],
     "tags": ["new"],
     "currency": "РУБ"
@@ -39,7 +39,7 @@
     "description": "описание описание описание",
     "category": ["clothes"],
     "gender": "men",
-    "img": ["src/assets/images/products/blazer_15000.jpg"],
+    "img": ["images/products/blazer_15000.jpg"],
     "tags": ["new"],
     "currency": "РУБ"
   },
@@ -51,7 +51,7 @@
     "description": "описание описание описание",
     "category": ["clothes"],
     "gender": "women",
-    "img": ["src/assets/images/products/dress_20000.jpg"],
+    "img": ["images/products/dress_20000.jpg"],
     "tags": ["best-sellers"],
     "currency": "РУБ"
   },
@@ -64,9 +64,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/overall_13000.jpg",
-      "src/assets/images/products/overall_13000_2.jpg",
-      "src/assets/images/products/overall_13000_3.jpg"
+      "images/products/overall_13000.jpg",
+      "images/products/overall_13000_2.jpg",
+      "images/products/overall_13000_3.jpg"
     ],
     "tags": ["best-sellers"],
     "currency": "РУБ"
@@ -80,9 +80,9 @@
     "category": ["clothes"],
     "gender": "men",
     "img": [
-      "src/assets/images/products/blazer_12000.jpg",
-      "src/assets/images/products/blazer_12000_2.jpg",
-      "src/assets/images/products/blazer_12000_3.jpg"
+      "images/products/blazer_12000.jpg",
+      "images/products/blazer_12000_2.jpg",
+      "images/products/blazer_12000_3.jpg"
     ],
     "tags": ["best-sellers"],
     "currency": "РУБ"
@@ -95,7 +95,7 @@
     "description": "Безумный стильный стиль",
     "category": ["clothes"],
     "gender": "men",
-    "img": ["src/assets/images/products/aviator_men.jpg"],
+    "img": ["images/products/aviator_men.jpg"],
     "tags": ["best-sellers", "new"],
     "currency": "РУБ"
   },
@@ -109,9 +109,9 @@
     "category": ["accessories"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/bag_prada_women.jpg",
-      "src/assets/images/products/bag_prada_women_2.jpg",
-      "src/assets/images/products/bag_prada_women_3.jpg"
+      "images/products/bag_prada_women.jpg",
+      "images/products/bag_prada_women_2.jpg",
+      "images/products/bag_prada_women_3.jpg"
     ],
     "tags": ["sale"],
     "currency": "РУБ"
@@ -125,9 +125,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/blouse_yellow_women.jpg",
-      "src/assets/images/products/blouse_yellow_women_2.jpg",
-      "src/assets/images/products/blouse_yellow_women_3.jpg"
+      "images/products/blouse_yellow_women.jpg",
+      "images/products/blouse_yellow_women_2.jpg",
+      "images/products/blouse_yellow_women_3.jpg"
     ],
     "tags": ["best-sellers", "new"],
     "currency": "РУБ"
@@ -141,9 +141,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/blue_dress_women.jpg",
-      "src/assets/images/products/blue_dress_women_2.jpg",
-      "src/assets/images/products/blue_dress_women_3.jpg"
+      "images/products/blue_dress_women.jpg",
+      "images/products/blue_dress_women_2.jpg",
+      "images/products/blue_dress_women_3.jpg"
     ],
     "tags": ["best-sellers"],
     "currency": "РУБ"
@@ -157,9 +157,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/body_women.jpg",
-      "src/assets/images/products/body_women_2.jpg",
-      "src/assets/images/products/body_women_3.jpg"
+      "images/products/body_women.jpg",
+      "images/products/body_women_2.jpg",
+      "images/products/body_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -173,9 +173,9 @@
     "category": ["accessories"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/bracelet_cream.jpg",
-      "src/assets/images/products/bracelet_cream_2.jpg",
-      "src/assets/images/products/bracelet_cream_3.jpg"
+      "images/products/bracelet_cream.jpg",
+      "images/products/bracelet_cream_2.jpg",
+      "images/products/bracelet_cream_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -189,9 +189,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/coat_leather_women.jpg",
-      "src/assets/images/products/coat_leather_women_2.jpg",
-      "src/assets/images/products/coat_leather_women_3.jpg"
+      "images/products/coat_leather_women.jpg",
+      "images/products/coat_leather_women_2.jpg",
+      "images/products/coat_leather_women_3.jpg"
     ],
     "tags": ["new"],
     "currency": "РУБ"
@@ -205,9 +205,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/flat_shoes_women.jpg",
-      "src/assets/images/products/flat_shoes_women_2.jpg",
-      "src/assets/images/products/flat_shoes_women_3.jpg"
+      "images/products/flat_shoes_women.jpg",
+      "images/products/flat_shoes_women_2.jpg",
+      "images/products/flat_shoes_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -222,9 +222,9 @@
     "category": ["accessories"],
     "gender": "all",
     "img": [
-      "src/assets/images/products/glasses.jpg",
-      "src/assets/images/products/glasses_2.jpg",
-      "src/assets/images/products/glasses_3.jpg"
+      "images/products/glasses.jpg",
+      "images/products/glasses_2.jpg",
+      "images/products/glasses_3.jpg"
     ],
     "tags": ["sale"],
     "currency": "РУБ"
@@ -238,9 +238,9 @@
     "category": ["accessories"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/glasses_women.jpg",
-      "src/assets/images/products/glasses_women_2.jpg",
-      "src/assets/images/products/glasses_women_3.jpg"
+      "images/products/glasses_women.jpg",
+      "images/products/glasses_women_2.jpg",
+      "images/products/glasses_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -254,9 +254,9 @@
     "category": ["shoes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/high_heels_boots_women.jpg",
-      "src/assets/images/products/high_heels_boots_women_2.jpg",
-      "src/assets/images/products/high_heels_boots_women_3.jpg"
+      "images/products/high_heels_boots_women.jpg",
+      "images/products/high_heels_boots_women_2.jpg",
+      "images/products/high_heels_boots_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -270,9 +270,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/jacket_grey_women.jpg",
-      "src/assets/images/products/jacket_grey_women_2.jpg",
-      "src/assets/images/products/jacket_grey_women_3.jpg"
+      "images/products/jacket_grey_women.jpg",
+      "images/products/jacket_grey_women_2.jpg",
+      "images/products/jacket_grey_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -285,7 +285,7 @@
     "description": "Стильно, модно, дай пять",
     "category": ["clothes"],
     "gender": "men",
-    "img": ["src/assets/images/products/jacket_men.jpg"],
+    "img": ["images/products/jacket_men.jpg"],
     "tags": [],
     "currency": "РУБ"
   },
@@ -298,9 +298,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/leather_suite_women.jpg",
-      "src/assets/images/products/leather_suite_women_2.jpg",
-      "src/assets/images/products/leather_suite_women_3.jpg"
+      "images/products/leather_suite_women.jpg",
+      "images/products/leather_suite_women_2.jpg",
+      "images/products/leather_suite_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -314,9 +314,9 @@
     "category": ["shoes"],
     "gender": "all",
     "img": [
-      "src/assets/images/products/nike_air.jpg",
-      "src/assets/images/products/nike_air_2.jpg",
-      "src/assets/images/products/nike_air_3.jpg"
+      "images/products/nike_air.jpg",
+      "images/products/nike_air_2.jpg",
+      "images/products/nike_air_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -330,9 +330,9 @@
     "category": ["shoes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/nike_force_women.jpg",
-      "src/assets/images/products/nike_force_women_2.jpg",
-      "src/assets/images/products/nike_force_women_3.jpg"
+      "images/products/nike_force_women.jpg",
+      "images/products/nike_force_women_2.jpg",
+      "images/products/nike_force_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -345,7 +345,7 @@
     "description": "На первое время необходимо запастись пластырями. А когда-то в них играли в баскетбол большие дяди.",
     "category": ["shoes"],
     "gender": "all",
-    "img": ["src/assets/images/products/shoes_converse.jpg"],
+    "img": ["images/products/shoes_converse.jpg"],
     "tags": [],
     "currency": "РУБ"
   },
@@ -358,9 +358,9 @@
     "category": ["shoes"],
     "gender": "all",
     "img": [
-      "src/assets/images/products/shoes_calvin.jpg",
-      "src/assets/images/products/shoes_calvin_2.jpg",
-      "src/assets/images/products/shoes_calvin_3.jpg"
+      "images/products/shoes_calvin.jpg",
+      "images/products/shoes_calvin_2.jpg",
+      "images/products/shoes_calvin_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -374,9 +374,9 @@
     "category": ["shoes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/shoes_puma.jpg",
-      "src/assets/images/products/shoes_puma_2.jpg",
-      "src/assets/images/products/shoes_puma_3.jpg"
+      "images/products/shoes_puma.jpg",
+      "images/products/shoes_puma_2.jpg",
+      "images/products/shoes_puma_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -390,9 +390,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/suite_women.jpg",
-      "src/assets/images/products/suite_women_2.jpg",
-      "src/assets/images/products/suite_women_3.jpg"
+      "images/products/suite_women.jpg",
+      "images/products/suite_women_2.jpg",
+      "images/products/suite_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -406,9 +406,9 @@
     "category": ["shoes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/summer_shoes_women.jpg",
-      "src/assets/images/products/summer_shoes_women_2.jpg",
-      "src/assets/images/products/summer_shoes_women_3.jpg"
+      "images/products/summer_shoes_women.jpg",
+      "images/products/summer_shoes_women_2.jpg",
+      "images/products/summer_shoes_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -422,9 +422,9 @@
     "category": ["clothes"],
     "gender": "men",
     "img": [
-      "src/assets/images/products/sweater__red_men.jpg",
-      "src/assets/images/products/sweater__red_men_2.jpg",
-      "src/assets/images/products/sweater__red_men_3.jpg"
+      "images/products/sweater__red_men.jpg",
+      "images/products/sweater__red_men_2.jpg",
+      "images/products/sweater__red_men_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -438,9 +438,9 @@
     "category": ["clothes"],
     "gender": "men",
     "img": [
-      "src/assets/images/products/sweatshirt_gray_men.jpg",
-      "src/assets/images/products/sweatshirt_gray_men_2.jpg",
-      "src/assets/images/products/sweatshirt_gray_men_3.jpg"
+      "images/products/sweatshirt_gray_men.jpg",
+      "images/products/sweatshirt_gray_men_2.jpg",
+      "images/products/sweatshirt_gray_men_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -454,9 +454,9 @@
     "category": ["clothes"],
     "gender": "men",
     "img": [
-      "src/assets/images/products/trousers_men.jpg",
-      "src/assets/images/products/trousers_men_2.jpg",
-      "src/assets/images/products/trousers_men_3.jpg"
+      "images/products/trousers_men.jpg",
+      "images/products/trousers_men_2.jpg",
+      "images/products/trousers_men_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -470,9 +470,9 @@
     "category": ["accessories"],
     "gender": "all",
     "img": [
-      "src/assets/images/products/watch.jpg",
-      "src/assets/images/products/watch_2.jpg",
-      "src/assets/images/products/watch_3.jpg"
+      "images/products/watch.jpg",
+      "images/products/watch_2.jpg",
+      "images/products/watch_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -486,9 +486,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/white_suite_women.jpg",
-      "src/assets/images/products/white_suite_women_2.jpg",
-      "src/assets/images/products/white_suite_women_3.jpg"
+      "images/products/white_suite_women.jpg",
+      "images/products/white_suite_women_2.jpg",
+      "images/products/white_suite_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -502,9 +502,9 @@
     "category": ["shoes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/women's shoes.jpg",
-      "src/assets/images/products/women's shoes_2.jpg",
-      "src/assets/images/products/women's shoes_3.jpg"
+      "images/products/women's shoes.jpg",
+      "images/products/women's shoes_2.jpg",
+      "images/products/women's shoes_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -518,9 +518,9 @@
     "category": ["clothes"],
     "gender": "women",
     "img": [
-      "src/assets/images/products/yellow_dress_women.jpg",
-      "src/assets/images/products/yellow_dress_women_2.jpg",
-      "src/assets/images/products/yellow_dress_women_3.jpg"
+      "images/products/yellow_dress_women.jpg",
+      "images/products/yellow_dress_women_2.jpg",
+      "images/products/yellow_dress_women_3.jpg"
     ],
     "tags": [],
     "currency": "РУБ"
@@ -533,7 +533,7 @@
     "description": "Это было не просто смело, это было офигеть как смело!",
     "category": ["clothes"],
     "gender": "women",
-    "img": ["src/assets/images/products/yellow_pink_look.jpg"],
+    "img": ["images/products/yellow_pink_look.jpg"],
     "tags": [],
     "currency": "РУБ"
   }
