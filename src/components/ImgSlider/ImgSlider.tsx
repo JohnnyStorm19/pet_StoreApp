@@ -19,7 +19,7 @@ const ImgSlider = ({ imgUrls }: IImgSliderProps) => {
       <div className="flex flex-col gap-1">
         {imgUrls.map((img, i) => {
           if (i > 2) return;
-          return <img key={img + i} src={`${imageHalfPath}/${img}`} alt="" className="w-full hover:outline" loading="lazy" onClick={() => handleImgClick(img)} />;
+          return <img key={img + i} src={`${imageHalfPath}/${img}`} alt="" className="w-full hover:outline transition-all duration-75" loading="lazy" onClick={() => handleImgClick(img)} />;
         })}
       </div>
       <div>

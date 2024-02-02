@@ -23,7 +23,7 @@ const ProductCard = ({ product }: IProductCardProps) => {
         key={product.img[0]}
         src={product.img[0]}
         alt=""
-        className="hover:outline"
+        className="hover:outline transition-all duration-75"
         loading="lazy"
       />
       <h3 className="text-sm lg:text-base">{product.title}</h3>
