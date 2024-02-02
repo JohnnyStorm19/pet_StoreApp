@@ -22,7 +22,7 @@ const CtAOffers = ({ title, type, id }: ICtAOffersProps) => {
           {title}
         </h1>
       </header>
-      <div className="grid grid-cols-cTaOffer grid-flow-col auto-cols-[minmax(250px,300px)] gap-3 overflow-x-auto p-1 snap-x">
+      <div className="grid grid-cols-cTaOffer grid-flow-col auto-cols-[minmax(250px,300px)] pb-6 gap-3 overflow-x-auto p-1 snap-x">
         {itemsData.map((item) => {
           const tagType = item.tags.find((string) => type === string);
           if (tagType === type) {

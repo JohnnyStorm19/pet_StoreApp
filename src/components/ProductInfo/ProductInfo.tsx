@@ -45,8 +45,8 @@ const ProductInfo = ({ product }: IProductInfoProps) => {
     <div className="flex flex-col gap-7 lg:text-xl text-lg lg:pt-20 pt-5 uppercase">
       <header className="flex lg:justify-start justify-center lg:gap-11 gap-x-10 gap-y-2 flex-wrap items-center flex-1">
         <h3 className="font-neue-bold text-xl">{product.title}</h3>
-        <div className="flex gap-7">
-          {product.old_price && <span className="text-gray-500 line-through">{productPriceFormatter(product.old_price)} {product.currency}</span>}
+        <div className="flex gap-7 items-center">
+          {product.old_price && <span className="text-gray-500 line-through text-sm">{productPriceFormatter(product.old_price)} {product.currency}</span>}
           <span>{productPriceFormatter(product.price)} {product.currency}</span>
         </div>
         <FavouriteBtn />

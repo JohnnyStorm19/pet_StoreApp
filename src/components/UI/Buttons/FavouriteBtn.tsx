@@ -26,9 +26,9 @@ const FavouriteBtn = () => {
   return (
     <>
       {!isFavourite ? (
-        <button name='add' className="button-add-to-favourites hover:bg-black hover:outline hover:outline-1 hover:text-white transition-colors duration-200" onClick={handleFavouritesClick}>Добавить в избранное</button>
+        <button name='add' className="button-add-to-favourites" onClick={handleFavouritesClick}>Добавить в избранное</button>
       ) : (
-        <button name='remove' className="button-remove-from-favourites hover:bg-white hover:outline hover:outline-1 hover:text-black transition-colors duration-200" onClick={handleFavouritesClick}>Удалить из избранного</button>
+        <button name='remove' className="button-remove-from-favourites" onClick={handleFavouritesClick}>Удалить из избранного</button>
       )}
 
       {/* <button

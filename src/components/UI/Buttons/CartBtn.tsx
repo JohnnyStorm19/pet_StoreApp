@@ -29,7 +29,7 @@ const CartBtn = ({ size }: ICartBtnProps) => {
 
   return (
     <>
-      <button type="button" className="button-primary hover:bg-white hover:outline hover:text-black transition-colors duration-200" onClick={handleCartClick}>
+      <button type="button" className="button-primary" onClick={handleCartClick}>
         {inCart ? 'Оформить заказ' : 'Добавить в корзину'}
     </button>
     </>
