@@ -8,10 +8,12 @@ import { store } from "./store/store.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/pet_StoreApp/">
+    <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );
+
+// basename="/pet_StoreApp/"
