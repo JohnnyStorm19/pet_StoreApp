@@ -51,7 +51,7 @@ const ProductInfo = ({ product }: IProductInfoProps) => {
         </div>
         <FavouriteBtn />
       </header>
-      {!product.category.includes('accessories') && (
+      {product.category.includes("clothes") && (
         <div className="flex gap-5 lg:justify-start justify-center">
           <h3>Размер</h3>
           <div className="flex gap-2">

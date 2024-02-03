@@ -6,12 +6,14 @@ import {
   incrementProductQuantity,
   removeFromCart,
 } from "../../store/products/productsSlice";
+import { useNavigate } from "react-router-dom";
 
 interface ICartItemProps {
   productData: ICartProduct;
 }
 
 const CartItem = ({ productData }: ICartItemProps) => {
+  const navigate = useNavigate();
   const dispatch = useAppDispatch();
   const cartProductCounter = useAppSelector(
     (state) => state.products.cartProductCounter
@@ -21,15 +23,29 @@ const CartItem = ({ productData }: ICartItemProps) => {
   );
   const itemCount = singleCounter && singleCounter.quantity;
 
-  const removeBtnHandler = () => {
+  const removeBtnHandler = (e: React.SyntheticEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
     dispatch(removeFromCart({id: productData.id}));
   }
+  const onItemClick = () => {
+    navigate(`/product/${productData.id}`);
+  };
+
+  const incrementProductCount = (e: React.SyntheticEvent<HTMLOrSVGElement>) => {
+    e.stopPropagation();
+    dispatch(incrementProductQuantity({ id: productData.id }))
+  }
+  const decrementProductCount = (e: React.SyntheticEvent<HTMLOrSVGElement>) => {
+    e.stopPropagation();
+    dispatch(decrementProductQuantity({ id: productData.id }))
+  }
+
   return (
-    <div className="relative flex md:flex-row flex-col gap-3 outline outline-1 outline-[#eaeaea] ">
-      <img src={productData.img[0]} alt="" className="imageOnPage" loading="lazy" />
+    <div className="relative flex md:flex-row flex-col gap-3 outline outline-1 outline-[#eaeaea]">
+      <img src={productData.img[0]} alt="" className="imageOnPage" loading="lazy" onClick={onItemClick} />
       <div className="py-4 w-full flex flex-col">
         <header className="flex justify-between">
-          <h3 className="uppercase">{productData.title}</h3>
+          <h3 className="uppercase cursor-pointer " onClick={onItemClick}>{productData.title}</h3>
           <button className="" onClick={removeBtnHandler}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,9 +68,7 @@ const CartItem = ({ productData }: ICartItemProps) => {
             viewBox="0 0 24 24"
             fill="currentColor"
             className="w-6 h-6 select-none active:scale-90"
-            onClick={() =>
-              dispatch(decrementProductQuantity({ id: productData.id }))
-            }
+            onClick={decrementProductCount}
           >
             <path
               fillRule="evenodd"
@@ -68,9 +82,7 @@ const CartItem = ({ productData }: ICartItemProps) => {
             viewBox="0 0 24 24"
             fill="currentColor"
             className="w-6 h-6 select-none active:scale-90"
-            onClick={() =>
-              dispatch(incrementProductQuantity({ id: productData.id }))
-            }
+            onClick={incrementProductCount}
           >
             <path
               fillRule="evenodd"
