@@ -7,33 +7,21 @@ import CartBtn from "../UI/Buttons/CartBtn";
 interface IProductInfoProps {
   product: IProduct;
 }
+type TButtonName = 'care' | 'description' | 'delivery';
 
 const ProductInfo = ({ product }: IProductInfoProps) => {
   const [collapsibles, setCollapsibles] = useState({
     description: false,
-    careAndComposition: false,
-    deliveryAndPayment: false,
+    care: false,
+    delivery: false,
   });
   const [size, setSize] = useState("S");
 
   const onCollapsibleClick = (e: React.SyntheticEvent<HTMLButtonElement>) => {
-    const name = e.currentTarget.name;
-    if (name === "description-btn") {
-      setCollapsibles({
-        ...collapsibles,
-        description: !collapsibles.description,
-      });
-    } else if (name === "care-btn") {
-      setCollapsibles({
-        ...collapsibles,
-        careAndComposition: !collapsibles.careAndComposition,
-      });
-    } else if (name === "delivery-btn") {
-      setCollapsibles({
-        ...collapsibles,
-        deliveryAndPayment: !collapsibles.deliveryAndPayment,
-      });
-    }
+    setCollapsibles({
+      ...collapsibles,
+      [e.currentTarget.name]: !collapsibles[e.currentTarget.name as TButtonName],
+    });
   };
 
   const handleSizeClick = (e: React.SyntheticEvent<HTMLSpanElement>) => {
@@ -46,8 +34,14 @@ const ProductInfo = ({ product }: IProductInfoProps) => {
       <header className="flex lg:justify-start justify-center lg:gap-11 gap-x-10 gap-y-2 flex-wrap items-center flex-1">
         <h3 className="font-neue-bold text-xl">{product.title}</h3>
         <div className="flex gap-7 items-center">
-          {product.old_price && <span className="text-gray-500 line-through text-sm">{productPriceFormatter(product.old_price)} {product.currency}</span>}
-          <span>{productPriceFormatter(product.price)} {product.currency}</span>
+          {product.old_price && (
+            <span className="text-gray-500 line-through text-sm">
+              {productPriceFormatter(product.old_price)} {product.currency}
+            </span>
+          )}
+          <span>
+            {productPriceFormatter(product.price)} {product.currency}
+          </span>
         </div>
         <FavouriteBtn />
       </header>
@@ -84,27 +78,37 @@ const ProductInfo = ({ product }: IProductInfoProps) => {
         <div>
           <button
             type="button"
-            name="description-btn"
+            name="description"
             onClick={onCollapsibleClick}
             className={`${collapsibles.description && "underline"}`}
           >
             Описание товара
           </button>
-          <div className={`${!collapsibles.description ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100' } productInfoCollapsed`}>
+          <div
+            className={`${
+              !collapsibles.description
+                ? "grid-rows-[0fr] opacity-0"
+                : "grid-rows-[1fr] opacity-100"
+            } productInfoCollapsed`}
+          >
             <p className="productInfoCollapsedText">{product.description}</p>
           </div>
         </div>
         <div>
           <button
             type="button"
-            name="care-btn"
+            name="care"
             onClick={onCollapsibleClick}
-            className={`${collapsibles.careAndComposition && "underline"}`}
+            className={`${collapsibles.care && "underline"}`}
           >
             Состав и уход
           </button>
           <div
-            className={`${!collapsibles.careAndComposition ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100' } productInfoCollapsed`}
+            className={`${
+              !collapsibles.care
+                ? "grid-rows-[0fr] opacity-0"
+                : "grid-rows-[1fr] opacity-100"
+            } productInfoCollapsed`}
           >
             <p className="productInfoCollapsedText">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
@@ -116,14 +120,18 @@ const ProductInfo = ({ product }: IProductInfoProps) => {
         <div>
           <button
             type="button"
-            name="delivery-btn"
+            name="delivery"
             onClick={onCollapsibleClick}
-            className={`${collapsibles.deliveryAndPayment && "underline"}`}
+            className={`${collapsibles.delivery && "underline"}`}
           >
             Доставка и оплата
           </button>
           <div
-            className={`${!collapsibles.deliveryAndPayment ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100' } productInfoCollapsed`}
+            className={`${
+              !collapsibles.delivery
+                ? "grid-rows-[0fr] opacity-0"
+                : "grid-rows-[1fr] opacity-100"
+            } productInfoCollapsed`}
           >
             <p className="productInfoCollapsedText">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
