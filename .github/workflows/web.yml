@@ -1,4 +1,4 @@
-name: SimpleMoviePet_app
+name: pet_StoreApp
 
 on: [push, pull_request]
 
